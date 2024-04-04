@@ -2,6 +2,7 @@ from typing import List
 def binary_search(nums: List, item: int):
     l=0
     r=len(nums) - 1
+    print("starting to run the code")
     
     while l < r:
         mid = (l+r)//2
